@@ -1,0 +1,55 @@
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d3d3d;
+    color: rgb(38, 175, 59);
+    font-weight: 600;
+    text-align: center;
+}
+
+input {
+    border: 1px groove rgba(189, 183, 183, 0.5);
+    font-size: inherit;
+    padding: 0.5em;
+    margin: 1 1;
+    /* the following ensures they're all using the same box-model for rendering */
+    -moz-box-sizing: content-box;
+    /* or `border-box` */
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: #eeeeee;
+}
+
+tr:nth-child(odd) {
+    background: #c7d8ff;
+}
+
+tr:nth-child(even) {
+    background: #fff;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    border-bottom: 1px solid rgb(184, 184, 184);
+    padding: 20px 10px 10px 20px;
+    text-align: left;
+}
+
+th {
+    background-color: #fff;
+    color: #7a7878;
+}
+
+// .content {
+//     background-color: rgb(232, 232, 232);
+// }
